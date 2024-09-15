@@ -8,6 +8,6 @@ class NorthAmericaCarFactory implements CarFactory{
 
     @Override
     public CarSpecification createCarSpecification() {
-        return null;
+        return null; //test
     }
 }
