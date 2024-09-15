@@ -40,23 +40,23 @@ public class MyClass {
 }
 
 
-public class MyClass {
-    private class Person {
-        private Integer age;
-        private String name;
-        public Person(String name, Integer age){
-            this.name = name;
-            this.age = age;
-        }
-    }
-    public static void main(String args[]) {
-        List<Person> li = new ArrayList<Person>();
-        li.add(new Person("Ali", 35));
-        li.add(new Person("Veli", 25));
-        li.add(new Person("Hasan", 27));
-        Collections.sort(li);
-        for(Person p : li) {
-            System.out.println(p.toString());
-        }
-    }
-}
+//public class MyClass {
+//    private class Person {
+//        private Integer age;
+//        private String name;
+//        public Person(String name, Integer age){
+//            this.name = name;
+//            this.age = age;
+//        }
+//    }
+//    public static void main(String args[]) {
+//        List<Person> li = new ArrayList<Person>();
+//        li.add(new Person("Ali", 35));
+//        li.add(new Person("Veli", 25));
+//        li.add(new Person("Hasan", 27));
+//        Collections.sort(li);
+//        for(Person p : li) {
+//            System.out.println(p.toString());
+//        }
+//    }
+//}
