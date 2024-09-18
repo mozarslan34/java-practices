@@ -1,4 +1,4 @@
 package org.example.creationaldesignpatterns;
 
-public class Plan {
+public class Test {
 }
