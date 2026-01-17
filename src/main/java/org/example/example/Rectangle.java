@@ -1,9 +1,9 @@
-package org.example;
+package org.example.example;
 
 /**
  * @author Mertcan Özarslan
  */
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
     private double length;
     private double height;
 

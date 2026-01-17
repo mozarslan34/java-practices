@@ -1,4 +1,4 @@
-package org.example;
+package org.example.example;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,7 +19,7 @@ public class MyClass {
 
         @Override
         public int compareTo(Person o) {
-            return o.age - this.age;
+            return Integer.compare(o.age, this.age);
         }
 
         @Override
@@ -32,7 +32,7 @@ public class MyClass {
         li.add(new Person("Ali", 35));
         li.add(new Person("Veli", 25));
         li.add(new Person("Hasan", 27));
-        Collections.sort(li);
+        Collections.sort(li, Collections.reverseOrder());
         for(Person p : li) {
             System.out.println(p.toString());
         }
